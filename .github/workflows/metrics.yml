@@ -24,7 +24,6 @@ jobs:
           plugin_wakatime_sections: time, projects, projects-graphs, languages, languages-graphs, editors, os
           plugin_wakatime_token: ${{ secrets.WAKATIME_TOKEN }}
           plugin_lines: yes
-          output_action: pull-request
           config_order: base.header, languages, wakatime
 
         
